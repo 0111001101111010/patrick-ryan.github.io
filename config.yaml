@@ -1,5 +1,5 @@
 ---
-markdown: kramdown
+markdown: "kramdown"
 contentdir: "content"
 layoutdir: "layouts"
 publishdir: "public"
