@@ -1,9 +1,9 @@
-markdown:   kramdown
-  input:    GFM
-contentdir: content
-layoutdir:  layouts
-publishdir: public
+markdown:   "kramdown"
+  input:    "GFM"
+contentdir: "content"
+layoutdir:  "layouts"
+publishdir: "public"
 indexes:
-  category: categories
-baseurl:    http://patrick-ryan.github.io/
-title:      Patrick Ryan
+  category: "categories"
+baseurl:    "http://patrick-ryan.github.io/"
+title:      "Patrick Ryan"
