@@ -79,6 +79,17 @@
               <br>&nbsp;&lt;body&gt;Happy&lt;/body&gt;
               <br>&lt;/html&gt;
             </blockquote>
+
+            <!-- Recent Posts section -->
+            <h1 class="post-title">Recent Posts</h1>
+            <section id="main">
+              <ul id="list">
+                {{ range first 10 .Data.Pages }}
+                {{ .Render "summary"}}
+                {{ end }}
+              </ul>
+            </section>
+
           </div>
         </div>
 
